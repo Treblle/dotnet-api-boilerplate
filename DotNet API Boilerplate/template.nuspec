@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>Treblle.NET.ApiBoilerplate</id>
-    <version>1.0.0-beta</version>
+    <version>1.0.1-beta</version>
     <authors>Treblle</authors>
     <owners>Treblle</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
-    <!-- <icon>icon.png</icon> -->
+    <icon>resources\TreblleIcon.png</icon>
     <projectUrl>https://github.com/Treblle/dotnet-api-boilerplate</projectUrl>
     <description>A template for a .NET 6.0 API using the best REST API practices.</description>
     <copyright>Copyright 2022, Treblle Limited</copyright>
@@ -23,6 +23,7 @@
   </metadata>
   <files>
     <file src="..\README.md" target="\README.md" />
+    <file src="resources\TreblleIcon.png" target="resources\" />
      <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;**\.DS_Store;**\.git\**\*;**\.github\**\*;**\.vs\**\*;**\*LICENSE;**\*.gitattributes;**\*NUGET.md;**\*README.md;**\*.gitignore;**\*nuget.config;" target="content\" />
   </files>
 </package>
