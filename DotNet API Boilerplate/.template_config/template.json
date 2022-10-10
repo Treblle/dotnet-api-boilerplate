@@ -17,7 +17,7 @@
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "DotNet API Boilerplate",
+  "sourceName": "DotNet_API_Boilerplate",
   "preferNameDirectory": true,
   "symbols": {
     "author": {
