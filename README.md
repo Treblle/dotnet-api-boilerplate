@@ -63,7 +63,7 @@ The Presentation project implements the Minimal API and contains everything that
 
 You can install this template using the dotnet new CLI. To install the lastest version of the template run the following command.
 ```bash
-dotnet new --install Treblle.DotNetApiBoilerplate.Template
+dotnet new --install Treblle.NET.ApiBoilerplate.Template
 ```
 
 ### Treblle
