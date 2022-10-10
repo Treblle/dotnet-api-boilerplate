@@ -1,4 +1,4 @@
-# .NET Core API boilerplate 🚀
+# .NET API boilerplate 🚀
 
 An awesome boilerplate for your next .NET 6.0 based API. It's only goal is to simply **kick-start your API development** and provide you with some of the best practices when building amazing and scalable REST APIs 🔥
 
