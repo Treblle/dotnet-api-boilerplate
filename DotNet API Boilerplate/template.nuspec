@@ -22,7 +22,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src=".\README.md" target="\README.md" />
+    <file src="..\README.md" target="\README.md" />
      <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;**\.DS_Store;**\.git\**\*;**\.github\**\*;**\.vs\**\*;**\*LICENSE;**\*.gitattributes;**\*NUGET.md;**\*README.md;**\*.gitignore;**\*nuget.config;" target="content\" />
   </files>
 </package>
