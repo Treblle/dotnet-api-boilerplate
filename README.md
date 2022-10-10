@@ -66,6 +66,11 @@ You can install this template using the dotnet new CLI. To install the lastest v
 dotnet new --install Treblle.DotNetApiBoilerplate.Template
 ```
 
+### Treblle
+
+Create a FREE account on https://treblle.com to get an API key and Project ID.
+Once you have your Treble API Key and Project ID you'll have to copy them into ```app.config```.
+
 ### Database
 
 The template was built for use with Microsoft SQL Server database, but it can easily be modified for any other database provider.
