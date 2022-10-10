@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Treblle",
+  "classifications": [
+    "Clean Architecture",
+    "Clean",
+    "Minimal API",
+    "Minimal",
+    "API",
+    "Treblle",
+    "Dotnet"
+  ],
+  "identity": "Treblle.DotNetApiBoilerplate.Template",
+  "name": ".NET API Boilerplate",
+  "shortName": "treblle_dotnet_api_boilerplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "DotNet API Boilerplate",
+  "preferNameDirectory": true,
+  "symbols": {
+    "author": {
+      "type": "parameter",
+      "displayName": "The name of the author of the solution.",
+      "defaultValue": "Treblle",
+      "replaces": "Treblle"
+    }
+  }
+}
