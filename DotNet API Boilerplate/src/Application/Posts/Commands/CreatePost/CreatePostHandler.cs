@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts.Commands.CreatePost;
+namespace DotNet_API_Boilerplate.Core.Posts.Commands.CreatePost;
 
 using AutoMapper;
 using Common.Enums;
@@ -6,10 +6,10 @@ using Common.Exceptions;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Services;
-using Treblle_Core_API_Boilerplate.Core.Common.Enums;
-using Treblle_Core_API_Boilerplate.Core.Posts.Dto;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Services;
+using DotNet_API_Boilerplate.Core.Common.Enums;
+using DotNet_API_Boilerplate.Core.Posts.Dto;
 
 public class CreatePostHandler : IRequestHandler<CreatePostCommand, PostDto>
 {

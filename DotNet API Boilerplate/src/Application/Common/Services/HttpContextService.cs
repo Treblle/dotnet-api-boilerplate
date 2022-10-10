@@ -1,8 +1,8 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Services;
+namespace DotNet_API_Boilerplate.Core.Common.Services;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Services;
-using static Treblle_Core_API_Boilerplate.Core.Common.Helpers.Constants.Strings;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Services;
+using static DotNet_API_Boilerplate.Core.Common.Helpers.Constants.Strings;
 
 public class HttpContextService : IHttpContextService
 {

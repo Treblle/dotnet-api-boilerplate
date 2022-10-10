@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Extensions;
+namespace DotNet_API_Boilerplate.Presentation.Extensions;
 using Core.Common.Exceptions;
 using Errors;
 using FluentValidation;
@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Http;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Text.Json;
-using Treblle_Core_API_Boilerplate.Core.Common;
-using Treblle_Core_API_Boilerplate.Core.Common.Exceptions;
+using DotNet_API_Boilerplate.Core.Common;
+using DotNet_API_Boilerplate.Core.Common.Exceptions;
 
 [ExcludeFromCodeCoverage]
 public static class ApplicationBuilderExtensions

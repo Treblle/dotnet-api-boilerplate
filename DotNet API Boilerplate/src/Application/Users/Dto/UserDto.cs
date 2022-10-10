@@ -1,6 +1,6 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Dto;
+namespace DotNet_API_Boilerplate.Core.Users.Dto;
 
-using Treblle_Core_API_Boilerplate.Core.Posts.Dto;
+using DotNet_API_Boilerplate.Core.Posts.Dto;
 
 public record UserDto
 {

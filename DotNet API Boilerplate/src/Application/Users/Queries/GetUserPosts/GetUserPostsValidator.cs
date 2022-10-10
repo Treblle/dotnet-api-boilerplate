@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Queries.GetUserPosts;
+namespace DotNet_API_Boilerplate.Core.Users.Queries.GetUserPosts;
 using FluentValidation;
 
 public class GetUserPostsValidator : AbstractValidator<GetUserPostsQuery>

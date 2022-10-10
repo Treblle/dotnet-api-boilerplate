@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts.Commands.DeletePost;
+namespace DotNet_API_Boilerplate.Core.Posts.Commands.DeletePost;
 using FluentValidation;
 
 public class DeletePostValidator : AbstractValidator<DeletePostCommand>

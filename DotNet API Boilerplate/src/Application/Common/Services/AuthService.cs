@@ -1,6 +1,6 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Services;
+namespace DotNet_API_Boilerplate.Core.Common.Services;
 
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Services;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Services;
 
 internal class AuthService : IAuthService
 {

@@ -1,7 +1,7 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Queries.GetUserById;
+namespace DotNet_API_Boilerplate.Core.Users.Queries.GetUserById;
 using MediatR;
 using System.ComponentModel.DataAnnotations;
-using Treblle_Core_API_Boilerplate.Core.Users.Dto;
+using DotNet_API_Boilerplate.Core.Users.Dto;
 
 public class GetUserByIdQuery : IRequest<UserDto>
 {

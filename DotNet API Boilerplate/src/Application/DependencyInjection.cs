@@ -1,13 +1,13 @@
-namespace Treblle_Core_API_Boilerplate.Core;
+namespace DotNet_API_Boilerplate.Core;
 using Common.Behaviours;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
-using Treblle_Core_API_Boilerplate.Core.Common.Behaviours;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Services;
-using Treblle_Core_API_Boilerplate.Core.Common.Services;
+using DotNet_API_Boilerplate.Core.Common.Behaviours;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Services;
+using DotNet_API_Boilerplate.Core.Common.Services;
 
 [ExcludeFromCodeCoverage]
 public static class DependencyInjection

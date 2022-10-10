@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Configuration;
+namespace DotNet_API_Boilerplate.Core.Common.Configuration;
 
 public class JwtConfiguration
 {

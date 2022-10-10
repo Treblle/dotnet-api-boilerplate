@@ -1,6 +1,6 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
+namespace DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
 
-using Treblle_Core_API_Boilerplate.Core.Posts.Entities;
+using DotNet_API_Boilerplate.Core.Posts.Entities;
 
 public interface IPostRepository : IEntityRepository<Post>
 {

@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Commands.UpdateUser;
+namespace DotNet_API_Boilerplate.Core.Users.Commands.UpdateUser;
 using FluentValidation;
 
 public class UpdateUserValidator : AbstractValidator<UpdateUserCommand>

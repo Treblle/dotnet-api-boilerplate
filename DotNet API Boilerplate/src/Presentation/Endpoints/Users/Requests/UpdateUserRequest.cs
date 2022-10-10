@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Endpoints.Users.Requests;
+namespace DotNet_API_Boilerplate.Presentation.Endpoints.Users.Requests;
 using System.ComponentModel.DataAnnotations;
 
 public class UpdateUserRequest

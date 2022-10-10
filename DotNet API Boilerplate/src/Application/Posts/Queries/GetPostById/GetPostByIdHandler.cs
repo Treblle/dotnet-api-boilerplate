@@ -1,14 +1,14 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts.Queries.GetPostById;
+namespace DotNet_API_Boilerplate.Core.Posts.Queries.GetPostById;
 using AutoMapper;
 using Common.Enums;
 using Common.Exceptions;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Common.Enums;
-using Treblle_Core_API_Boilerplate.Core.Common.Exceptions;
-using Treblle_Core_API_Boilerplate.Core.Posts.Dto;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Common.Enums;
+using DotNet_API_Boilerplate.Core.Common.Exceptions;
+using DotNet_API_Boilerplate.Core.Posts.Dto;
 
 public class GetPostByIdHandler : IRequestHandler<GetPostByIdQuery, PostDto>
 {

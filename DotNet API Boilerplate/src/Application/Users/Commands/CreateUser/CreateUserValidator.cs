@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Commands.CreateUser;
+namespace DotNet_API_Boilerplate.Core.Users.Commands.CreateUser;
 using FluentValidation;
 
 public class CreateUserValidator : AbstractValidator<CreateUserCommand>

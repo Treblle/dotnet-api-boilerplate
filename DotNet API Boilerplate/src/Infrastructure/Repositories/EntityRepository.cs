@@ -1,11 +1,11 @@
-namespace Treblle_Core_API_Boilerplate.Infrastructure.Repositories;
+namespace DotNet_API_Boilerplate.Infrastructure.Repositories;
 
 using System;
 using System.Threading;
 using Microsoft.EntityFrameworkCore;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Common.Entities;
-using Treblle_Core_API_Boilerplate.Infrastructure.Databases.Blog;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Common.Entities;
+using DotNet_API_Boilerplate.Infrastructure.Databases.Blog;
 
 internal class EntityRepository<T> : IEntityRepository<T> where T : Entity
 {

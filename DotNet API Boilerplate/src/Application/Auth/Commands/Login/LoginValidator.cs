@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Auth.Commands.Login;
+namespace DotNet_API_Boilerplate.Core.Auth.Commands.Login;
 
 using FluentValidation;
 

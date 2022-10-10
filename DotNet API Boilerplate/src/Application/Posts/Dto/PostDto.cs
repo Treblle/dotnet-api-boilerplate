@@ -1,7 +1,7 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts.Dto;
+namespace DotNet_API_Boilerplate.Core.Posts.Dto;
 
-using Treblle_Core_API_Boilerplate.Core.Common.Dto;
-using Treblle_Core_API_Boilerplate.Core.Users.Dto;
+using DotNet_API_Boilerplate.Core.Common.Dto;
+using DotNet_API_Boilerplate.Core.Users.Dto;
 
 public record PostDto : EntityDto
 {

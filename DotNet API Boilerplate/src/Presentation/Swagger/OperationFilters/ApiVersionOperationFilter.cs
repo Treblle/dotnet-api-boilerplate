@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Swagger.OperationFilters;
+namespace DotNet_API_Boilerplate.Presentation.Swagger.OperationFilters;
 
 using Asp.Versioning;
 using Microsoft.OpenApi.Any;

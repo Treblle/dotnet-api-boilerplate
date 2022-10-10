@@ -1,6 +1,6 @@
-namespace Treblle_Core_API_Boilerplate.Core.Auth.Commands.Login;
+namespace DotNet_API_Boilerplate.Core.Auth.Commands.Login;
 using MediatR;
-using Treblle_Core_API_Boilerplate.Core.Auth.Dto;
+using DotNet_API_Boilerplate.Core.Auth.Dto;
 
 public class LoginCommand : IRequest<TokenDto>
 {

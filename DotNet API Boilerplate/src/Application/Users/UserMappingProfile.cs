@@ -1,7 +1,7 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users;
+namespace DotNet_API_Boilerplate.Core.Users;
 using AutoMapper;
-using Treblle_Core_API_Boilerplate.Core.Users.Dto;
-using Treblle_Core_API_Boilerplate.Core.Users.Entities;
+using DotNet_API_Boilerplate.Core.Users.Dto;
+using DotNet_API_Boilerplate.Core.Users.Entities;
 
 internal class UserMappingProfile : Profile
 {

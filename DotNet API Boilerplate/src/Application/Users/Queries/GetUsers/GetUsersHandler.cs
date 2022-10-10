@@ -1,12 +1,12 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Queries.GetUsers;
+namespace DotNet_API_Boilerplate.Core.Users.Queries.GetUsers;
 
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Users.Dto;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Users.Dto;
 
 public class GetUsersHandler : IRequestHandler<GetUsersQuery, List<UserDto>>
 {

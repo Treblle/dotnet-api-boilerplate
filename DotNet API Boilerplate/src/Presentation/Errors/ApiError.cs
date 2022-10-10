@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Errors
+namespace DotNet_API_Boilerplate.Presentation.Errors
 {
     using System.Diagnostics.CodeAnalysis;
 

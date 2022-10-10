@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Enums;
+namespace DotNet_API_Boilerplate.Core.Common.Enums;
 public enum EntityType
 {
     User,

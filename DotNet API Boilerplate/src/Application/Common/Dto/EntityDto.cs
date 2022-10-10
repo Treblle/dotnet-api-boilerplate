@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Dto;
+namespace DotNet_API_Boilerplate.Core.Common.Dto;
 public abstract record EntityDto
 {
     public Guid Uuid { get; init; }

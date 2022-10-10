@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Endpoints.Posts;
+namespace DotNet_API_Boilerplate.Presentation.Endpoints.Posts;
 using Errors;
 using MediatR;
 using Requests;
@@ -12,9 +12,9 @@ using Commands = Core.Posts.Commands;
 using Queries = Core.Posts.Queries;
 using Treblle.Net.Core;
 using Asp.Versioning.Builder;
-using Treblle_Core_API_Boilerplate.Presentation.Versioning;
-using Treblle_Core_API_Boilerplate.Core.Common;
-using Treblle_Core_API_Boilerplate.Core.Posts.Dto;
+using DotNet_API_Boilerplate.Presentation.Versioning;
+using DotNet_API_Boilerplate.Core.Common;
+using DotNet_API_Boilerplate.Core.Posts.Dto;
 
 [ExcludeFromCodeCoverage]
 public static class PostsEndpoints

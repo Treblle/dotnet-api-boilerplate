@@ -1,12 +1,12 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Commands.CreateUser;
+namespace DotNet_API_Boilerplate.Core.Users.Commands.CreateUser;
 
 using AutoMapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using Treblle_Core_API_Boilerplate.Core.Users.Entities;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Users.Dto;
+using DotNet_API_Boilerplate.Core.Users.Entities;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Users.Dto;
 
 public class CreateUserHandler : IRequestHandler<CreateUserCommand, UserDto>
 {

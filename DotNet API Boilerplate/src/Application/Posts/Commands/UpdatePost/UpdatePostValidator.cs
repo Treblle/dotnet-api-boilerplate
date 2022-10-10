@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts.Commands.UpdatePost;
+namespace DotNet_API_Boilerplate.Core.Posts.Commands.UpdatePost;
 using FluentValidation;
 
 public class UpdatePostValidator : AbstractValidator<UpdatePostCommand>

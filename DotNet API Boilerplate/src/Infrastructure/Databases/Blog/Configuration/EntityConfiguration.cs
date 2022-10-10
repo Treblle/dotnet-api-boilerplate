@@ -1,7 +1,7 @@
-namespace Treblle_Core_API_Boilerplate.Infrastructure.Databases.Blog.Configuration;
+namespace DotNet_API_Boilerplate.Infrastructure.Databases.Blog.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Treblle_Core_API_Boilerplate.Core.Common.Entities;
+using DotNet_API_Boilerplate.Core.Common.Entities;
 
 internal abstract class EntityConfiguration<T> : IEntityTypeConfiguration<T>
         where T : Entity

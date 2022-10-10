@@ -1,7 +1,7 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common;
+namespace DotNet_API_Boilerplate.Core.Common;
 using AutoMapper;
-using Treblle_Core_API_Boilerplate.Core.Common.Dto;
-using Treblle_Core_API_Boilerplate.Core.Common.Entities;
+using DotNet_API_Boilerplate.Core.Common.Dto;
+using DotNet_API_Boilerplate.Core.Common.Entities;
 
 internal class EntitiyMappingProfile : Profile
 {

@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Extensions;
+namespace DotNet_API_Boilerplate.Presentation.Extensions;
 using Asp.Versioning;
 using Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -15,9 +15,9 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Treblle.Net.Core;
-using Treblle_Core_API_Boilerplate.Core;
-using Treblle_Core_API_Boilerplate.Core.Common.Configuration;
-using Treblle_Core_API_Boilerplate.Presentation.Swagger.OperationFilters;
+using DotNet_API_Boilerplate.Core;
+using DotNet_API_Boilerplate.Core.Common.Configuration;
+using DotNet_API_Boilerplate.Presentation.Swagger.OperationFilters;
 
 [ExcludeFromCodeCoverage]
 public static class ProgramExtensions
@@ -73,20 +73,20 @@ public static class ProgramExtensions
                 new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = $"Treblle_Core_API_Boilerplate API - {ti.ToTitleCase(builder.Environment.EnvironmentName)} ",
+                    Title = $"DotNet_API_Boilerplate API - {ti.ToTitleCase(builder.Environment.EnvironmentName)} ",
                     Description = "An example to share an implementation of Minimal API in .NET 6.",
                     Contact = new OpenApiContact
                     {
-                        Name = "Treblle_Core_API_Boilerplate API",
-                        Email = "treblle_core_api_boilerplate@stphnwlsh.dev",
-                        Url = new Uri("https://github.com/stphnwlsh/treblle_core_api_boilerplate")
+                        Name = "DotNet_API_Boilerplate API",
+                        Email = "DotNet_API_Boilerplate@stphnwlsh.dev",
+                        Url = new Uri("https://github.com/stphnwlsh/DotNet_API_Boilerplate")
                     },
                     License = new OpenApiLicense()
                     {
-                        Name = "Treblle_Core_API_Boilerplate API - License - MIT",
+                        Name = "DotNet_API_Boilerplate API - License - MIT",
                         Url = new Uri("https://opensource.org/licenses/MIT")
                     },
-                    TermsOfService = new Uri("https://github.com/stphnwlsh/treblle_core_api_boilerplate")
+                    TermsOfService = new Uri("https://github.com/stphnwlsh/DotNet_API_Boilerplate")
                 });
 
             var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -189,7 +189,7 @@ public static class ProgramExtensions
         var ti = CultureInfo.CurrentCulture.TextInfo;
 
         app.UseSwagger();
-        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", $"Treblle_Core_API_Boilerplate - {ti.ToTitleCase(app.Environment.EnvironmentName)} - V1"));
+        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", $"DotNet_API_Boilerplate - {ti.ToTitleCase(app.Environment.EnvironmentName)} - V1"));
 
         #endregion Swagger
 

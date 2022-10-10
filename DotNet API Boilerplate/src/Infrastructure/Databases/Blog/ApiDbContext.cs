@@ -1,11 +1,11 @@
-namespace Treblle_Core_API_Boilerplate.Infrastructure.Databases.Blog;
+namespace DotNet_API_Boilerplate.Infrastructure.Databases.Blog;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.Reflection;
-using Treblle_Core_API_Boilerplate.Core.Common.Entities;
-using Treblle_Core_API_Boilerplate.Core.Posts.Entities;
-using Treblle_Core_API_Boilerplate.Core.Users.Entities;
+using DotNet_API_Boilerplate.Core.Common.Entities;
+using DotNet_API_Boilerplate.Core.Posts.Entities;
+using DotNet_API_Boilerplate.Core.Users.Entities;
 
 internal class ApiDbContext : IdentityDbContext<User>
 {

@@ -1,7 +1,7 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Queries.GetUserPosts;
+namespace DotNet_API_Boilerplate.Core.Users.Queries.GetUserPosts;
 using MediatR;
 using System.ComponentModel.DataAnnotations;
-using Treblle_Core_API_Boilerplate.Core.Posts.Dto;
+using DotNet_API_Boilerplate.Core.Posts.Dto;
 
 public class GetUserPostsQuery : IRequest<List<PostDto>>
 {

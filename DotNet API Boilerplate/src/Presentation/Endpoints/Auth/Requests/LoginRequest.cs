@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Endpoints.Auth.Requests;
+namespace DotNet_API_Boilerplate.Presentation.Endpoints.Auth.Requests;
 using System.ComponentModel.DataAnnotations;
 
 public class LoginRequest

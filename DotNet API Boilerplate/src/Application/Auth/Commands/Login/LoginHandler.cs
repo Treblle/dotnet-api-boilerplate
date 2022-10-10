@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Auth.Commands.Login;
+namespace DotNet_API_Boilerplate.Core.Auth.Commands.Login;
 using AutoMapper;
 using MediatR;
 using Microsoft.IdentityModel.Tokens;
@@ -7,12 +7,12 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Treblle_Core_API_Boilerplate.Core.Common.Exceptions;
-using Treblle_Core_API_Boilerplate.Core.Auth.Dto;
-using Treblle_Core_API_Boilerplate.Core.Common.Configuration;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Users.Entities;
-using static Treblle_Core_API_Boilerplate.Core.Common.Helpers.Constants.Strings;
+using DotNet_API_Boilerplate.Core.Common.Exceptions;
+using DotNet_API_Boilerplate.Core.Auth.Dto;
+using DotNet_API_Boilerplate.Core.Common.Configuration;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Users.Entities;
+using static DotNet_API_Boilerplate.Core.Common.Helpers.Constants.Strings;
 
 public class LoginHandler : IRequestHandler<LoginCommand, TokenDto>
 {

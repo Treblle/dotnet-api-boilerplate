@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts.Commands.CreatePost;
+namespace DotNet_API_Boilerplate.Core.Posts.Commands.CreatePost;
 using FluentValidation;
 
 public class CreatePostValidator : AbstractValidator<CreatePostCommand>

@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts.Queries.GetPostById;
+namespace DotNet_API_Boilerplate.Core.Posts.Queries.GetPostById;
 using FluentValidation;
 
 public class GetPostByIdValidator : AbstractValidator<GetPostByIdQuery>

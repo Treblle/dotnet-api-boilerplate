@@ -1,12 +1,12 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Queries.GetUserPosts;
+namespace DotNet_API_Boilerplate.Core.Users.Queries.GetUserPosts;
 
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Posts.Dto;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Posts.Dto;
 
 public class GetUserPostsHandler : IRequestHandler<GetUserPostsQuery, List<PostDto>>
 {

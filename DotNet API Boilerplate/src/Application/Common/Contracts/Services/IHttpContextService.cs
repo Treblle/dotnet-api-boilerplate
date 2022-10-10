@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Contracts.Services;
+namespace DotNet_API_Boilerplate.Core.Common.Contracts.Services;
 
 public interface IHttpContextService
 {

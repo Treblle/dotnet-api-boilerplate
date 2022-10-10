@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Entities;
+namespace DotNet_API_Boilerplate.Core.Common.Entities;
 using System.ComponentModel.DataAnnotations;
 
 public abstract record Entity

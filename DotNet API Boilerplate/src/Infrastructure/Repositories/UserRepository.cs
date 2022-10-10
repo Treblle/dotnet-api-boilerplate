@@ -1,14 +1,14 @@
-namespace Treblle_Core_API_Boilerplate.Infrastructure.Repositories;
+namespace DotNet_API_Boilerplate.Infrastructure.Repositories;
 
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Common.Exceptions;
-using Treblle_Core_API_Boilerplate.Core.Users.Entities;
-using Treblle_Core_API_Boilerplate.Infrastructure.Databases.Blog;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Common.Exceptions;
+using DotNet_API_Boilerplate.Core.Users.Entities;
+using DotNet_API_Boilerplate.Infrastructure.Databases.Blog;
 
 internal class UserRepository : IUserRepository
 {

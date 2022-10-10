@@ -1,8 +1,8 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Exceptions;
+namespace DotNet_API_Boilerplate.Core.Common.Exceptions;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.Serialization;
-using Treblle_Core_API_Boilerplate.Core.Common.Enums;
+using DotNet_API_Boilerplate.Core.Common.Enums;
 
 [Serializable]
 [ExcludeFromCodeCoverage]

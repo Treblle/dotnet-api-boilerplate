@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Helpers;
+namespace DotNet_API_Boilerplate.Core.Common.Helpers;
 
 public static class Constants
 {

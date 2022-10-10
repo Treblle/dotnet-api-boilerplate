@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Treblle_Core_API_Boilerplate.Infrastructure.Databases.Blog;
+using DotNet_API_Boilerplate.Infrastructure.Databases.Blog;
 
 #nullable disable
 
-namespace Treblle_Core_API_Boilerplate.Infrastructure.Migrations
+namespace DotNet_API_Boilerplate.Infrastructure.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
     [Migration("20220930090456_InitDatabase")]
@@ -157,7 +157,7 @@ namespace Treblle_Core_API_Boilerplate.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Treblle_Core_API_Boilerplate.Core.Posts.Entities.Post", b =>
+            modelBuilder.Entity("DotNet_API_Boilerplate.Core.Posts.Entities.Post", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -195,7 +195,7 @@ namespace Treblle_Core_API_Boilerplate.Infrastructure.Migrations
                     b.ToTable("Posts");
                 });
 
-            modelBuilder.Entity("Treblle_Core_API_Boilerplate.Core.Users.Entities.User", b =>
+            modelBuilder.Entity("DotNet_API_Boilerplate.Core.Users.Entities.User", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -277,7 +277,7 @@ namespace Treblle_Core_API_Boilerplate.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Treblle_Core_API_Boilerplate.Core.Users.Entities.User", null)
+                    b.HasOne("DotNet_API_Boilerplate.Core.Users.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -286,7 +286,7 @@ namespace Treblle_Core_API_Boilerplate.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Treblle_Core_API_Boilerplate.Core.Users.Entities.User", null)
+                    b.HasOne("DotNet_API_Boilerplate.Core.Users.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -301,7 +301,7 @@ namespace Treblle_Core_API_Boilerplate.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Treblle_Core_API_Boilerplate.Core.Users.Entities.User", null)
+                    b.HasOne("DotNet_API_Boilerplate.Core.Users.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -310,23 +310,23 @@ namespace Treblle_Core_API_Boilerplate.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Treblle_Core_API_Boilerplate.Core.Users.Entities.User", null)
+                    b.HasOne("DotNet_API_Boilerplate.Core.Users.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Treblle_Core_API_Boilerplate.Core.Posts.Entities.Post", b =>
+            modelBuilder.Entity("DotNet_API_Boilerplate.Core.Posts.Entities.Post", b =>
                 {
-                    b.HasOne("Treblle_Core_API_Boilerplate.Core.Users.Entities.User", "User")
+                    b.HasOne("DotNet_API_Boilerplate.Core.Users.Entities.User", "User")
                         .WithMany("Posts")
                         .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Treblle_Core_API_Boilerplate.Core.Users.Entities.User", b =>
+            modelBuilder.Entity("DotNet_API_Boilerplate.Core.Users.Entities.User", b =>
                 {
                     b.Navigation("Posts");
                 });

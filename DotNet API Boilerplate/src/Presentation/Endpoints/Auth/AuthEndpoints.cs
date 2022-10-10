@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Endpoints.Auth;
+namespace DotNet_API_Boilerplate.Presentation.Endpoints.Auth;
 using Errors;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -7,12 +7,12 @@ using Swashbuckle.AspNetCore.Annotations;
 using System.Diagnostics.CodeAnalysis;
 using System.Net.Mime;
 using Commands = Core.Auth.Commands;
-using Treblle_Core_API_Boilerplate.Presentation.Endpoints.Auth.Requests;
+using DotNet_API_Boilerplate.Presentation.Endpoints.Auth.Requests;
 using Treblle.Net.Core;
 using Asp.Versioning.Builder;
-using Treblle_Core_API_Boilerplate.Presentation.Versioning;
-using Treblle_Core_API_Boilerplate.Core.Auth.Dto;
-using Treblle_Core_API_Boilerplate.Core.Common;
+using DotNet_API_Boilerplate.Presentation.Versioning;
+using DotNet_API_Boilerplate.Core.Auth.Dto;
+using DotNet_API_Boilerplate.Core.Common;
 
 [ExcludeFromCodeCoverage]
 public static class AuthEndpoints

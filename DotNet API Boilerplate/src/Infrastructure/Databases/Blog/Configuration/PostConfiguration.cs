@@ -1,6 +1,6 @@
-namespace Treblle_Core_API_Boilerplate.Infrastructure.Databases.Blog.Configuration;
+namespace DotNet_API_Boilerplate.Infrastructure.Databases.Blog.Configuration;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Treblle_Core_API_Boilerplate.Core.Posts.Entities;
+using DotNet_API_Boilerplate.Core.Posts.Entities;
 
 internal class PostConfiguration : EntityConfiguration<Post>
 {

@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Endpoints.Users;
+namespace DotNet_API_Boilerplate.Presentation.Endpoints.Users;
 using Errors;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -8,14 +8,14 @@ using System.Diagnostics.CodeAnalysis;
 using System.Net.Mime;
 using Queries = Core.Users.Queries;
 using Commands = Core.Users.Commands;
-using Treblle_Core_API_Boilerplate.Presentation.Endpoints.Users.Requests;
+using DotNet_API_Boilerplate.Presentation.Endpoints.Users.Requests;
 using Microsoft.AspNetCore.Http.Extensions;
 using Treblle.Net.Core;
 using Asp.Versioning.Builder;
-using Treblle_Core_API_Boilerplate.Presentation.Versioning;
-using Treblle_Core_API_Boilerplate.Core.Common;
-using Treblle_Core_API_Boilerplate.Core.Users.Dto;
-using Treblle_Core_API_Boilerplate.Core.Posts.Dto;
+using DotNet_API_Boilerplate.Presentation.Versioning;
+using DotNet_API_Boilerplate.Core.Common;
+using DotNet_API_Boilerplate.Core.Users.Dto;
+using DotNet_API_Boilerplate.Core.Posts.Dto;
 
 [ExcludeFromCodeCoverage]
 public static class UsersEndpoints

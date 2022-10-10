@@ -1,6 +1,6 @@
-namespace Treblle_Core_API_Boilerplate.Core.Users.Commands.CreateUser;
+namespace DotNet_API_Boilerplate.Core.Users.Commands.CreateUser;
 using MediatR;
-using Treblle_Core_API_Boilerplate.Core.Users.Dto;
+using DotNet_API_Boilerplate.Core.Users.Dto;
 
 public class CreateUserCommand : IRequest<UserDto>
 {

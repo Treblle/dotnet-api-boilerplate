@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Behaviours;
+namespace DotNet_API_Boilerplate.Core.Common.Behaviours;
 using FluentValidation;
 using MediatR;
 using System.Collections.Generic;

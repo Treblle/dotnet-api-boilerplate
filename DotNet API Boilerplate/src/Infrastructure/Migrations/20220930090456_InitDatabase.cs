@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Treblle_Core_API_Boilerplate.Infrastructure.Migrations
+namespace DotNet_API_Boilerplate.Infrastructure.Migrations
 {
     public partial class InitDatabase : Migration
     {

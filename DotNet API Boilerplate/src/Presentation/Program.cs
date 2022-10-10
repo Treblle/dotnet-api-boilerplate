@@ -1,9 +1,9 @@
 using Serilog;
-using Treblle_Core_API_Boilerplate.Presentation.Endpoints.Users;
-using Treblle_Core_API_Boilerplate.Presentation.Endpoints.Posts;
-using Treblle_Core_API_Boilerplate.Presentation.Extensions;
-using Treblle_Core_API_Boilerplate.Presentation.Endpoints.Auth;
-using Treblle_Core_API_Boilerplate.Presentation.Versioning;
+using DotNet_API_Boilerplate.Presentation.Endpoints.Users;
+using DotNet_API_Boilerplate.Presentation.Endpoints.Posts;
+using DotNet_API_Boilerplate.Presentation.Extensions;
+using DotNet_API_Boilerplate.Presentation.Endpoints.Auth;
+using DotNet_API_Boilerplate.Presentation.Versioning;
 
 var builder = WebApplication
                 .CreateBuilder(args)

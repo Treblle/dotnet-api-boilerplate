@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Presentation.Versioning;
+namespace DotNet_API_Boilerplate.Presentation.Versioning;
 
 using Asp.Versioning;
 

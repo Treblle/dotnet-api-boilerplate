@@ -1,6 +1,6 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
+namespace DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
 using System.Threading.Tasks;
-using Treblle_Core_API_Boilerplate.Core.Users.Entities;
+using DotNet_API_Boilerplate.Core.Users.Entities;
 
 public interface IUserRepository
 {

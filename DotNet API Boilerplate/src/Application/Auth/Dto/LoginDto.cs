@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Auth.Dto;
+namespace DotNet_API_Boilerplate.Core.Auth.Dto;
 
 public class LoginDto
 {

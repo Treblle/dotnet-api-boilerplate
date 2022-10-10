@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common.Exceptions;
+namespace DotNet_API_Boilerplate.Core.Common.Exceptions;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Diagnostics.CodeAnalysis;

@@ -1,12 +1,12 @@
-namespace Treblle_Core_API_Boilerplate.Infrastructure;
+namespace DotNet_API_Boilerplate.Infrastructure;
 using Databases.Blog;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics.CodeAnalysis;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
-using Treblle_Core_API_Boilerplate.Core.Users.Entities;
-using Treblle_Core_API_Boilerplate.Infrastructure.Repositories;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Users.Entities;
+using DotNet_API_Boilerplate.Infrastructure.Repositories;
 
 [ExcludeFromCodeCoverage]
 public static class DependencyInjection

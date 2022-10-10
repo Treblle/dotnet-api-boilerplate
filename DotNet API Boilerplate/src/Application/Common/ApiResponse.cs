@@ -1,4 +1,4 @@
-namespace Treblle_Core_API_Boilerplate.Core.Common;
+namespace DotNet_API_Boilerplate.Core.Common;
 
 public class ApiResponse<T> where T : class
 {

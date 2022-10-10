@@ -1,10 +1,10 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts.Commands.DeletePost;
+namespace DotNet_API_Boilerplate.Core.Posts.Commands.DeletePost;
 using Common.Enums;
 using Common.Exceptions;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using Treblle_Core_API_Boilerplate.Core.Common.Contracts.Repositories;
+using DotNet_API_Boilerplate.Core.Common.Contracts.Repositories;
 
 public class DeletePostHandler : IRequestHandler<DeletePostCommand, bool>
 {

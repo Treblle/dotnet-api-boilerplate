@@ -1,7 +1,7 @@
-namespace Treblle_Core_API_Boilerplate.Core.Posts;
+namespace DotNet_API_Boilerplate.Core.Posts;
 using AutoMapper;
-using Treblle_Core_API_Boilerplate.Core.Posts.Dto;
-using Treblle_Core_API_Boilerplate.Core.Posts.Entities;
+using DotNet_API_Boilerplate.Core.Posts.Dto;
+using DotNet_API_Boilerplate.Core.Posts.Entities;
 
 internal class PostMappingProfile : Profile
 {
