@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Treblle.NET.ApiBoilerplate</id>
-    <version>1.0.1-beta</version>
+    <id>Treblle.NET.ApiBoilerplate.Template</id>
+    <version>1.0.0-beta</version>
     <authors>Treblle</authors>
     <owners>Treblle</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
