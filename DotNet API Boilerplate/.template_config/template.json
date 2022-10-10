@@ -10,7 +10,7 @@
     "Treblle",
     "Dotnet"
   ],
-  "identity": "Treblle.DotNetApiBoilerplate.Template",
+  "identity": "Treblle.NET.ApiBoilerplate.Template",
   "name": ".NET API Boilerplate",
   "shortName": "treblle_dotnet_api_boilerplate",
   "tags": {
