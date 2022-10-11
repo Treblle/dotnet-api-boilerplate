@@ -101,4 +101,4 @@ do our best to help you out.
 ## License
 
 Copyright 2022, Treblle Limited. Licensed under the MIT license:
-http://www.opensource.org/licenses/mit-license.php
+https://opensource.org/licenses/MIT

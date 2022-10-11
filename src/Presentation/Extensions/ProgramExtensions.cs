@@ -70,24 +70,23 @@ public static class ProgramExtensions
         builder.Services.AddSwaggerGen(options =>
         {
             options.SwaggerDoc("v1",
-                new OpenApiInfo
-                {
-                    Version = "v1",
-                    Title = $"DotNet_API_Boilerplate API - {ti.ToTitleCase(builder.Environment.EnvironmentName)} ",
-                    Description = "An example to share an implementation of Minimal API in .NET 6.",
-                    Contact = new OpenApiContact
-                    {
-                        Name = "DotNet_API_Boilerplate API",
-                        Email = "DotNet_API_Boilerplate@stphnwlsh.dev",
-                        Url = new Uri("https://github.com/stphnwlsh/DotNet_API_Boilerplate")
-                    },
-                    License = new OpenApiLicense()
-                    {
-                        Name = "DotNet_API_Boilerplate API - License - MIT",
-                        Url = new Uri("https://opensource.org/licenses/MIT")
-                    },
-                    TermsOfService = new Uri("https://github.com/stphnwlsh/DotNet_API_Boilerplate")
-                });
+               new OpenApiInfo
+               {
+                   Version = "v1",
+                   Title = $".NET API Boilerplate - {ti.ToTitleCase(builder.Environment.EnvironmentName)} ",
+                   Description = "A template for a .NET 6.0 API using the best REST API practices.",
+                   Contact = new OpenApiContact
+                   {
+                       Name = ".NET API Boilerplate",
+                       Url = new Uri("https://github.com/Treblle/dotnet-api-boilerplate")
+                   },
+                   License = new OpenApiLicense()
+                   {
+                       Name = ".NET API Boilerplate - License - MIT",
+                       Url = new Uri("https://opensource.org/licenses/MIT")
+                   },
+                   TermsOfService = new Uri("https://github.com/Treblle/dotnet-api-boilerplate")
+               });
 
             var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
             options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
@@ -189,7 +188,7 @@ public static class ProgramExtensions
         var ti = CultureInfo.CurrentCulture.TextInfo;
 
         app.UseSwagger();
-        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", $"DotNet_API_Boilerplate - {ti.ToTitleCase(app.Environment.EnvironmentName)} - V1"));
+        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", $".NET API Boilerplate - {ti.ToTitleCase(app.Environment.EnvironmentName)} - V1"));
 
         #endregion Swagger
 
