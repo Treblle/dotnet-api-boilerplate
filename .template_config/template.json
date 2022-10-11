@@ -20,12 +20,6 @@
   "sourceName": "DotNet_API_Boilerplate",
   "preferNameDirectory": true,
   "symbols": {
-    "author": {
-      "type": "parameter",
-      "displayName": "The name of the author of the solution.",
-      "defaultValue": "Treblle",
-      "replaces": "Treblle"
-    },
     "connectionString": {
       "type": "parameter",
       "description": "Your databse connection string.",

@@ -73,7 +73,6 @@ dotnet new treblle_dotnet_api_boilerplate --name {YOUR_SOLUTION_NAMESPACE}
 
 Optionally, you can also specify these parameters:
 ```bash
--au | --param:author            (Solution author)
 -c  | --connectionString        (Your database connection string)
 -j  | --jwtKey                  (Your JWT secret key)
 -t  | --treblleApiKey           (Your Treblle API Key)
