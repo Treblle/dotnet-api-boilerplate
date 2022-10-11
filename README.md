@@ -83,7 +83,7 @@ Optionally, you can also specify these parameters:
 ### Treblle
 
 Create a FREE account on https://treblle.com to get an API key and Project ID.
-Once you have your Treble API Key and Project ID you'll have to copy them into ```app.config```.
+Once you have your Treble API Key and Project ID you'll have to copy them into ```app.config```. Alternatively, you can pass ```--treblleApiKey``` and ```--treblleProjectId``` parameters when creating a solution from the template.
 
 ### Database
 
