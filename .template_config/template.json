@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Treblle",
+  "classifications": [
+    "Clean Architecture",
+    "Clean",
+    "Minimal API",
+    "Minimal",
+    "API",
+    "Treblle",
+    "Dotnet"
+  ],
+  "identity": "TreblleDotNetApiBoilerplate.Template",
+  "name": ".NET API Boilerplate",
+  "shortName": "treblle_dotnet_api_boilerplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "DotNet_API_Boilerplate",
+  "preferNameDirectory": true,
+  "symbols": {
+    "author": {
+      "type": "parameter",
+      "displayName": "The name of the author of the solution.",
+      "defaultValue": "Treblle",
+      "replaces": "Treblle"
+    },
+    "connectionString": {
+      "type": "parameter",
+      "description": "Your databse connection string.",
+      "defaultValue": "{CONNECTION_STRING}",
+      "replaces":"{CONNECTION_STRING}"
+    },
+    "jwtKey": {
+      "type": "parameter",
+      "description": "Your JWT secret key.",
+      "defaultValue": "{JWT_SECRET_KEY}",
+      "replaces":"{JWT_SECRET_KEY}"
+    },
+    "treblleApiKey": {
+      "type": "parameter",
+      "description": "Your Treblle API Key.",
+      "defaultValue": "{Treblle_Api_Key}",
+      "replaces":"{Treblle_Api_Key}"
+    },
+    "treblleProjectId": {
+      "type": "parameter",
+      "description": "Your Treblle Project Id.",
+      "defaultValue": "{Treblle_Project_Id}",
+      "replaces":"{Treblle_Project_Id}"
+    }
+  }
+}

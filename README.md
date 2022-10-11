@@ -1,29 +1,29 @@
 # .NET API boilerplate 🚀
 
-An awesome boilerplate for your next .NET 6.0 based API. It's only goal is to simply **kick-start your API development** and provide you with some of the best practices when building amazing and scalable REST APIs 🔥
+An awesome boilerplate for your next .NET 6.0 based API. Its only goal is to simply **kick-start your API development** and provide you with some of the best practices when building amazing and scalable REST APIs 🔥
 
 ## Features 🍭
 
 ### REST API Best Practices
-We baked in all the best REST API practices in terms of structuring your API, naming conversations, HTTP methods, responses and optimizations
+We baked in all the best REST API practices in terms of structuring your API, naming conversations, HTTP methods, responses, and optimizations
 	
 ### Concrete examples
-We all like to learn by examples and that's why  the boilerplate comes with a concrete example that include everything from folder structure, routes to naming controllers
+We all like to learn by examples and that's why  the boilerplate comes with a concrete example that includes everything from folder structure, and routes to naming controllers
 
 ### Built-in versioning
-Building a versioning system that scales is always hard and that's why we built in a robust versioning system that is easy to use and can grow with the project</dd>
+Building a versioning system that scales is always hard and that's why we included a robust versioning system that is easy to use and can grow with the project</dd>
 
 ### Minimal APIs
 The boilerplate uses the new .NET 6.0 Minimal APIs architecture.
 
 ### Clean Architecture
-The boilerplate is loosly based on Clean Architecture patterns without being too strict. The endpoints are kept 'thin' by using the Mediator Pattern with [Mediatr](https://github.com/jbogard/MediatR).
+The boilerplate is loosely based on Clean Architecture patterns without being too strict. The endpoints are kept 'thin' by using the Mediator Pattern with [Mediatr](https://github.com/jbogard/MediatR).
 
 ### Entity Framework
 Entity Framework Core is already included and we built two tables Users and Posts and defined everything you might need on a database and model level. You can easily expand the database by using the Entity Framework Migration system.
 
 ### .NET Core Identity
-Built in .NET Core Identity authentication using JWT Bearer tokens included in the boilerplate.
+Built-in .NET Core Identity authentication using JWT Bearer tokens included in the boilerplate.
 
 ### Validation
 The boilerplate uses [FluentValidation](https://github.com/FluentValidation/FluentValidation) for consistent and scalable validation.
@@ -32,7 +32,7 @@ The boilerplate uses [FluentValidation](https://github.com/FluentValidation/Flue
 The boilerplate includes an example of a global exception handler which makes sure that the API always returns a user-friendly error message.
 
 ### Treblle built-in
-We added an awesome NuGet package called Treblle. Out of the box Treblle gives you: real-time API monitoring, automatically generated and updated documentation, error tracking and logging, API analytics, quality scoring and much more. To get started with Treblle visit [treblle.com](https://treblle.com).
+We added an awesome NuGet package called Treblle. Out of the box, Treblle gives you: real-time API monitoring, automatically generated and updated documentation, error tracking and logging, API analytics, quality scoring, and much more. To get started with Treblle visit [treblle.com](https://treblle.com).
 
 ## Project Structure
 
@@ -43,7 +43,7 @@ The Core project contains the domain and business logic. This is where the entit
 The Infrastructure project handles the communication with the database. It contains the implementations of the repositories defined in the Core project.
 
 #### **Presentation**
-The Presentation project implements the Minimal API and contains everything that's need to facilitate the communication with the consumer. API endpoints are defined here and user actions are mapped to queries and commands which are sent to the Core layer using the Mediator Pattern.
+The Presentation project implements the Minimal API and contains everything that's needed to facilitate communication with the consumer. API endpoints are defined here and user actions are mapped to queries and commands which are sent to the Core layer using the Mediator Pattern.
 
 
 ## Requirements
@@ -59,11 +59,25 @@ The Presentation project implements the Minimal API and contains everything that
 - [Mediatr](https://github.com/jbogard/MediatR)
 - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
 
-## Getting started
+## Getting started 🚀
 
-You can install this template using the dotnet new CLI. To install the lastest version of the template run the following command.
+You can install this template using the dotnet new CLI. To install the latest version of the template run the following command:
 ```bash
-dotnet new --install Treblle.NET.ApiBoilerplate.Template
+dotnet new --install TreblleDotNetApiBoilerplate.Template
+```
+
+To create a new solution based on this template use this command:
+```bash
+dotnet new treblle_dotnet_api_boilerplate --name {YOUR_SOLUTION_NAMESPACE}
+```
+
+Optionally, you can also specify these parameters:
+```bash
+-au | --param:author            (Solution author)
+-c | --connectionString         (Your database connection string)
+-j | --jwtKey                   (Your JWT secret key)
+-t | --treblleApiKey            (Your Treblle API Key)
+-tr | --treblleProjectId        (Your Treblle Project Id)
 ```
 
 ### Treblle
@@ -73,7 +87,7 @@ Once you have your Treble API Key and Project ID you'll have to copy them into `
 
 ### Database
 
-The template was built for use with Microsoft SQL Server database, but it can easily be modified for any other database provider.
+The template was built for use with the Microsoft SQL Server database, but it can easily be modified for any other database provider.
 Make sure to edit the connection string in ```appsettings.json```.
 
 ### JWT Bearer Token

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Treblle.NET.ApiBoilerplate.Template</id>
+    <id>TreblleDotNetApiBoilerplate.Template</id>
     <version>1.0.0-beta</version>
     <authors>Treblle</authors>
     <owners>Treblle</owners>
@@ -22,8 +22,8 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="..\README.md" target="\README.md" />
+    <file src=".\README.md" target="\README.md" />
     <file src="resources\TreblleIcon.png" target="resources\" />
-     <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;**\.DS_Store;**\.git\**\*;**\.github\**\*;**\.vs\**\*;**\*LICENSE;**\*.gitattributes;**\*NUGET.md;**\*README.md;**\*.gitignore;**\*nuget.config;" target="content\" />
+     <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;**\.DS_Store;**\.git\**\*;**\.github\**\*;**\.vs\**\*;**\*LICENSE;**\*.gitattributes;**\*NUGET.md;**\*README.md;**\*.gitignore;**\*nuget.config;resources\TreblleIcon.png" target="content\" />
   </files>
 </package>
