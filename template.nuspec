@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TreblleDotNetApiBoilerplate.Template</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <authors>Treblle</authors>
     <owners>Treblle</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -11,6 +11,7 @@
     <icon>resources\TreblleIcon.png</icon>
     <projectUrl>https://github.com/Treblle/dotnet-api-boilerplate</projectUrl>
     <description>A template for a .NET 6.0 API using the best REST API practices.</description>
+    <releaseNotes>Updated Treble.Net.Core to the latest version</releaseNotes>
     <copyright>Copyright 2022, Treblle Limited</copyright>
     <readme>README.md</readme>
     <repository type="git" url="https://github.com/Treblle/dotnet-api-boilerplate.git" />
